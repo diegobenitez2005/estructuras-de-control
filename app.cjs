@@ -2,7 +2,7 @@
 
 console.log("archivo funciona");
 
-function VerificarParidad(n){
+function VerificarParidad(numero){
     if (n%2 === 0){console.log ("El numero es par");}
     else {console.log ("El numero es impar");}
 }    
@@ -16,7 +16,7 @@ function VerificarParidad(n){
  }
 
  //cuentaRegresiva
-function cuentaRegresiva(n){
+function cuentaRegresiva(numero){
    while(typeof n !== 'number' || n<=0 ){
       console.log("El numero debe ser mayor a cero y entero");
       return;
@@ -48,7 +48,7 @@ function repetirMensaje(){
 
 }
 //Repetir numeros pares
-let RepetirPares= function(n){
+let ImprimirPares= function(n){
    for(let i=0; i<n; i++){
       
       if(i%2 === 0 ){console.log(i);}
@@ -86,8 +86,8 @@ function esVocal(vocal){
 }
 
 //diaSemana
-function diaSemana(x){
-   switch(x){
+function ObtenerDiaSemana(dia){
+   switch(dia){
       case 1:
          return console.log("lunes");
       case 2:
@@ -127,10 +127,10 @@ function evaluarNumeros(a,b,c){
     clasificarEdad,
     cuentaRegresiva,
     repetirMensaje,
-    RepetirPares,
+    ImprimirPares,
     detenerEnSeis,
     saltarCinco,
-    diaSemana,
+    ObtenerDiaSemana,
     esVocal,
     evaluarNumeros,
 
