@@ -86,7 +86,7 @@ function esVocal(vocal){
 }
 
 //diaSemana
-function ObtenerDiaSemana(dia){
+function obtenerDiaSemana(dia){
    switch(dia){
       case 1:
          return console.log("lunes");
@@ -130,7 +130,7 @@ function evaluarNumeros(a,b,c){
     ImprimirPares,
     detenerEnSeis,
     saltarCinco,
-    ObtenerDiaSemana,
+    obtenerDiaSemana,
     esVocal,
     evaluarNumeros,
 
