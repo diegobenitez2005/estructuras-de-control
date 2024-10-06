@@ -2,7 +2,7 @@
 
 console.log("archivo funciona");
 
-function VerificarParidad(numero){
+function verificarParidad(numero){
     if (n%2 === 0){console.log ("El numero es par");}
     else {console.log ("El numero es impar");}
 }    
@@ -48,7 +48,7 @@ function repetirMensaje(){
 
 }
 //Repetir numeros pares
-let ImprimirPares= function(n){
+let imprimirPares= function(n){
    for(let i=0; i<n; i++){
       
       if(i%2 === 0 ){console.log(i);}
@@ -123,11 +123,11 @@ function evaluarNumeros(a,b,c){
 }
  
  module.exports={
-    VerificarParidad,
+    verificarParidad,
     clasificarEdad,
     cuentaRegresiva,
     repetirMensaje,
-    ImprimirPares,
+    imprimirPares,
     detenerEnSeis,
     saltarCinco,
     obtenerDiaSemana,
