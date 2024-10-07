@@ -3,7 +3,7 @@
 console.log("archivo funciona");
 
 function verificarParidad(numero){
-    if (n%2 === 0){console.log ("El numero es par");}
+    if (numero%2 === 0){console.log ("El numero es par");}
     else {console.log ("El numero es impar");}
 }    
 
@@ -17,14 +17,14 @@ function verificarParidad(numero){
 
  //cuentaRegresiva
 function cuentaRegresiva(numero){
-   while(typeof n !== 'number' || n<=0 ){
+   while(typeof numero !== 'number' || numero<=0 ){
       console.log("El numero debe ser mayor a cero y entero");
       return;
    }
    const cuentaRegresive= setInterval(()=>{
-      console.log(n);
-      n--;
-      if(n<0){
+      console.log(numero);
+      numero--;
+      if(numero<0){
          clearInterval(cuentaRegresive);
          console.log("opa")
          return;
