@@ -58,9 +58,10 @@ let imprimirPares= function(n){
 
 //detenerEnSeis
 function detenerEnSeis(){
-    const fin =10; 
+    const fin = 10; 
    for(let i=0; i<=fin; i++){
       if(i===6){break;}
+      console.log(i);
    }
 }
 //saltar cinco
@@ -68,6 +69,7 @@ function saltarCinco(){
       fin=10;
       for(let i=0; i<=fin;i++ ){
          if (i===5){continue;}
+         console.log(i);
       }
 } 
 
